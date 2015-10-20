@@ -1,0 +1,13 @@
+package mobileProtocol;
+
+option java_package = "rug.ucProject";
+option java_outer_classname = "mobileProtocol";
+
+enum CmdType {
+	VIBRATION = 0;
+}
+
+message ucMsg {
+	required CmdType type = 1;
+	repeated  int64 vPattern = 2;
+}

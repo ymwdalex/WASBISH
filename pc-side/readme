@@ -1,0 +1,4 @@
+Some error during the development period:
+1. OpenCV: debug mode use debug lib, release mode use release mode
+			imshow...
+2. coordinate of opengl, kinect and artoolkit are different			

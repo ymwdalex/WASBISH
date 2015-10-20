@@ -1,0 +1,2 @@
+protoc  -I=D:\workspace\UbiquitousComputing\src\ --java_out=D:\workspace\UbiquitousComputing\src D:\workspace\UbiquitousComputing\src\mobileProtocol.proto
+protoc  -I=D:\workspace\UbiquitousComputing\src\ --cpp_out=D:\RUG\UC\project D:\workspace\UbiquitousComputing\src\mobileProtocol.proto
